@@ -1,0 +1,166 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Omlet",
+        "instructions": "Yumurtaları çırpın, tavada pişirin. İçine peynir ve sebzeler ekleyin.",
+        "image": "resim1",
+        "category":"kahvaltı"
+      },
+      {
+        "id": 2,
+        "name": "Menemen",
+        "instructions": "Domates, biber ve soğanı kavurun. Üzerine yumurta ekleyip karıştırın.",
+        "image": "resim1",
+        "category":"kahvaltı"
+      },
+      {
+        "id": 3,
+        "name": "Peynirli Tost",
+        "instructions": "Ekmek arasına peynir koyup tost makinesinde kızartın.",
+        "image": "resim1",
+        "category":"kahvaltı"
+      },
+      {
+        "id": 4,
+        "name": "makarna",
+        "instructions": "updated recipe",
+        "image": "resim1",
+        "category":"kahvaltı"
+      },
+      {
+        "id": 5,
+        "name": "pancake",
+        "instructions": "şimdi updated recipe",
+        "image": "resim1",
+        "category":"kahvaltı"
+      },
+      {
+        "id": 6,
+        "name": "Mercimek Çorbası",
+        "instructions": "Mercimek, soğan ve havucu haşlayın. Blenderdan geçirin ve servis edin.",
+        "image": "resim1",
+        "category":"öğlen yemeği"
+      },
+      {
+        "id": 7,
+        "name": "Tavuklu Pilav",
+        "instructions": "Pirinçleri haşlayın. Ayrı bir tavada tavukları pişirin ve pilavla karıştırın.",
+        "image": "resim1",
+        "category":"öğlen yemeği"
+      },
+      {
+        "id": 8,
+        "name": "Makarna",
+        "instructions": "Makarnayı haşlayın. Üzerine domates sosu ekleyin.",
+        "image": "resim1",
+        "category":"öğlen yemeği"
+      },
+      {
+        "id": 9,
+        "name": "Zeytinyağlı Fasulye",
+        "instructions": "Fasulyeleri zeytinyağında kavurun. Domates ekleyip pişirin.",
+        "image": "resim1",
+        "category":"öğlen yemeği"
+      },
+      {
+        "id": 10,
+        "name": "Izgara Köfte",
+        "instructions": "Kıyma, soğan ve baharatları karıştırıp köfte yapın. Izgarada pişirin.",
+        "image": "resim1",
+        "category":"öğlen yemeği"
+      },
+      {
+        "id": 11,
+        "name": "Balık Izgara",
+        "instructions": "Balığı zeytinyağı ve limonla marine edip ızgarada pişirin.",
+        "image": "resim1",
+        "category":"akşam yemeği"
+      },
+      {
+        "id": 12,
+        "name": "Et Sote",
+        "instructions": "Etleri soğanla kavurun. Baharat ekleyip pişirin.",
+        "image": "resim1",
+        "category":"akşam yemeği"
+      },
+      {
+        "id": 13,
+        "name": "Patlıcan Musakka",
+        "instructions": "Patlıcanları kızartın. Kıyma sosuyla kat kat dizip fırında pişirin.",
+        "image": "resim1",
+        "category":"akşam yemeği"
+      },
+      {
+        "id": 14,
+        "name": "Karnabahar Graten",
+        "instructions": "Karnabaharı haşlayın. Beşamel sos ve peynirle fırında pişirin.",
+        "image": "resim1",
+        "category":"akşam yemeği"
+      },
+      {
+        "id": 15,
+        "name": "Sebzeli Güveç",
+        "instructions": "Sebzeleri doğrayın. Güveç kabında zeytinyağı ve baharatla pişirin.",
+        "image": "resim1",
+        "category":"akşam yemeği"
+      },
+      {
+        "id": 16,
+        "name": "Baklava",
+        "instructions": "Yufkaları ince açın. Aralarına ceviz serpiştirip tepside kat kat dizin. Üzerine tereyağı dökün ve fırında pişirin. Şerbetle servis edin.",
+        "image": "resim1",
+        "category":"tatlı"
+      },
+      {
+        "id": 17,
+        "name": "Kazandibi",
+        "instructions": "Süt, şeker ve nişastayı karıştırıp pişirin. Karamelize edilmiş şekerin üzerine dökün ve soğutun.",
+        "image": "resim1",
+        "category":"tatlı"
+      },
+      {
+        "id": 18,
+        "name": "Şekerpare",
+        "instructions": "Un, tereyağı, yumurta ve şekerle hamur yapın. Yuvarlak şekil verip fırında pişirin. Şerbet dökün.",
+        "image": "resim1",
+        "category":"tatlı"
+      },{
+        "id": 19,
+        "name": "Muhallebi",
+        "instructions": "Süt, şeker ve nişastayı karıştırarak pişirin. Soğutun ve üzerine tarçın serpin.",
+        "image": "resim1",
+        "category":"tatlı"
+      },{
+        "id": 20,
+        "name": "Revani",
+        "instructions": "Yumurta, yoğurt ve irmikle hamur yapın. Fırında pişirin ve üzerine şerbet dökün.",
+        "image": "resim1",
+        "category":"tatlı"
+      }
+    ],
+  
+    "categories": [
+      {
+        "name": "kahvaltı",
+        "foods": [1, 2, 3, 4, 5],
+        "id": "kahvaltı"
+      },
+      {
+        "name": "öğlen yemeği",
+        "foods": [6, 7, 8, 9, 10],
+        "id": "öğlen yemeği"
+      },
+      {
+        "name": "akşam yemeği",
+        "foods": [11, 12, 13, 14, 15],
+        "id": "akşam yemeği"
+      },
+      {
+        "name": "tatlı",
+        "foods": [16,17,18,19,20],
+        "id": "tatlı"
+      }
+    ]
+  }
+  
